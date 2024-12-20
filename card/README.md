@@ -1,0 +1,1 @@
+This mini projects I created during my web development journey.
