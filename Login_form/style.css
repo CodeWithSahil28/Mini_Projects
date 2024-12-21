@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: rgb(194, 221, 223);
+    height: 50vh;
+    width: 19vw;
+    padding: 10px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#username {
+    width: 208px;
+    margin: 21px 11px 19px;
+    height: 26px;
+    background-color: rgb(194, 221, 223);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#password{
+    width: 208px;
+    margin: 0px 11px 7px;
+    height: 26px;
+    background-color: rgb(194, 221, 223);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.forgotPass{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 19px;
+}
+.forgotPass a{
+    font-size: smaller;
+}
+.logButton{
+    display: flex;
+    justify-content: center;
+    margin:  35px 0px 2px 0px;
+}
+.logButton button{
+    height: 31px;
+    width: 112px;
+    background-color: #007affa3;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.logButton button:hover{
+    background-color:#1268c4a3;;
+}
+.register{
+    display: flex;
+    margin-left: 11px;
+}
+.register a,p{
+    font-size: smaller;
+}
