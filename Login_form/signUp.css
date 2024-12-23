@@ -81,3 +81,10 @@ body {
 .signUpBtn button:hover{
     background-color:#1268c4a3;;
 }
+.register{
+    display: flex;
+    margin-left: 11px;
+}
+.register a,p{
+    font-size: smaller;
+}
