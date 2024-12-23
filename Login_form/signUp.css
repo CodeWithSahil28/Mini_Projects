@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    border-radius: 10px;
+    background-color: rgb(194, 221, 223);
+    height: 55vh;
+    width: 19vw;
+    padding: 10px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#username {
+    width: 208px;
+    margin: 17px 11px 0px;
+    height: 26px;
+    background-color: rgb(194, 221, 223);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#email{
+    width: 208px;
+    margin: 17px 11px 7px;
+    height: 26px;
+    background-color: rgb(194, 221, 223);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#password{
+    width: 208px;
+    margin: 17px 11px 7px;
+    height: 26px;
+    background-color: rgb(194, 221, 223);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#conPassword{
+    width: 208px;
+    margin: 17px 11px 7px;
+    height: 26px;
+    background-color: rgb(194, 221, 223);
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.signUpBtn{
+    display: flex;
+    justify-content: center;
+    margin:  35px 0px 2px 0px;
+}
+.signUpBtn button{
+    height: 31px;
+    width: 150px;
+    background-color: #007affa3;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: smaller;
+}
+.signUpBtn button:hover{
+    background-color:#1268c4a3;;
+}
